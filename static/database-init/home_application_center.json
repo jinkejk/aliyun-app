@@ -1,0 +1,102 @@
+{
+"RECORDS":[
+{
+"name":"常州",
+"created_by":"admin",
+"created_time":"2018-05-04 17:27:39",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"深圳",
+"created_by":"admin",
+"created_time":"2018-05-04 17:27:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"苏州",
+"created_by":"admin",
+"created_time":"2018-05-04 17:27:50",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"沭阳",
+"created_by":"admin",
+"created_time":"2018-05-04 18:57:58",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"南京",
+"created_by":"admin",
+"created_time":"2018-05-04 18:58:05",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"新加坡",
+"created_by":"admin",
+"created_time":"2018-05-04 18:58:28",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"越南",
+"created_by":"admin",
+"created_time":"2018-05-04 18:58:34",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"韩国",
+"created_by":"admin",
+"created_time":"2018-05-04 18:58:49",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"丹麦",
+"created_by":"admin",
+"created_time":"2018-05-04 18:58:56",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"香港",
+"created_by":"admin",
+"created_time":"2018-05-04 18:59:01",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"北京",
+"created_by":"admin",
+"created_time":"2018-05-04 18:59:10",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"上海",
+"created_by":"admin",
+"created_time":"2018-05-04 18:59:16",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"菲律宾",
+"created_by":"admin",
+"created_time":"2018-05-07 09:21:43",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"其他",
+"created_by":"admin",
+"created_time":"2018-08-06 10:35:09",
+"description":null,
+"is_deleted":0
+}
+]
+}

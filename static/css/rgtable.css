@@ -1,0 +1,85 @@
+.mytablebody {
+    /*display: inline-block;*/
+    /*max-width: 100%;*/
+    /*overflow: auto;*/
+    /*border: 1px solid #d5d5d5;*/
+    /*max-height: 300px;*/
+}
+.mytablebody table {
+    min-width: 100%;
+    width: auto;
+    table-layout: fixed;
+}
+
+.mytablebody table th {
+    border-left: 1px solid #d7d7d7;
+    /*min-width: 100px;*/
+    font-size: 14px;
+    text-align: center;
+    /*background-color: #F3F5F7;*/
+    line-height: 2;
+    font-weight: 700;
+    /*border: none;*/
+    padding: 5px 10px;
+    /*border-right: none;*/
+}
+
+.mytablebody .table_bg {
+    background-color: #F3F5F7;
+    width: 12em;
+}
+.mytablebody table thead tr{
+    border-bottom: 1px solid #d7d7d7;
+}
+.mytablebody table th:first-child {
+    border-left: none;
+}
+
+.mytablebody table tr {
+    /*border-bottom: 1px solid #d7d7d7;*/
+}
+
+.mytablebody table td {
+    border: 1px solid #d7d7d7;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    /*min-width: 120px;*/
+    max-width: 220px;
+    word-wrap: break-word;
+    padding: 5px 10px;
+    text-align: center;
+    /*border: 1px solid #d5d5d5;*/
+    border-right: none;
+    /*border: none;*/
+}
+.mytablebody table td button{
+    padding: 0 10px!important;
+}
+.mytablebody table td:first-child {
+    border-left: none;
+}
+
+.mytablebody .table_box {
+    overflow-x: auto;
+    height: 410px;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+}
+
+.mytablebody .table_control {
+    line-height: 30px;
+    height: 30px;
+}
+
+.mytablebody .table_control > div {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.mytablebody .table_control > div a {
+    cursor: pointer;
+    margin-left: 10px;
+}

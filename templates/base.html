@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block title %}
+        <title>蓝鲸-钉钉同步项目</title>
+    {% endblock %}
+
+    <!--通用的一些css样式-->
+    {% block base-header-css %}
+        <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/animate.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/toastr.min.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ STATIC_URL }}favicon.ico" type="image/x-icon">
+    {% endblock %}
+
+    <!--子页面需要的css样式-->
+    {% block child-header-css %}
+    {% endblock %}
+
+    <!--一些全局样式-->
+    {% block header-style %}
+    {% endblock %}
+
+</head>
+
+<body>
+<div id="wrapper">
+    <!-- 一些通用的布局 -->
+    {% block base-body %}
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav metismenu" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element">
+                            <span>
+                                <img alt="image" class="img-rounded" style="width: 180px;"
+                                     src="{{ STATIC_URL }}img/aac_logo.png"/>
+                            </span>
+                        </div>
+                    </li>
+                    <!--子页面可以加active属性，来激活这个菜单-->
+                    {% block control-tab-li %}
+                        <li>
+                    {% endblock %}
+                    <a href="{{ STATIC_URL }}dashboard.html"><i class="fa fa-th-large"></i> <span
+                            class="nav-label">Dashboard</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top white-bg" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message">欢迎 {{ request.user.username }} AAC蓝鲸钉钉同步项目</span>
+                        <i class="fa fa-tasks"></i>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    {% endblock %}
+    <!-- 子页面布局 -->
+    {% block child-body %}
+    {% endblock %}
+    </div>
+
+
+</body>
+
+<!-- 通用的js文件 -->
+{% block base-js %}
+    <!-- Mainly scripts -->
+    <script src="{{ STATIC_URL }}js/jquery-2.1.1.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+    <script src="{{ STATIC_URL }}js/toastr.min.js"></script>
+{% endblock %}
+
+{#//子页面js#}
+{% block child-bottom-js %}
+{% endblock %}
+
+</html>

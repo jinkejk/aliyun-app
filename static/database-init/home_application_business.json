@@ -1,0 +1,459 @@
+{
+"RECORDS":[
+{
+"name":"邮件服务",
+"created_by":"admin",
+"created_time":"2018-05-04 17:23:17",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"堡垒机",
+"created_by":"admin",
+"created_time":"2018-05-04 17:24:42",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"备份平台",
+"created_by":"admin",
+"created_time":"2018-05-04 17:28:33",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"DLP",
+"created_by":"admin",
+"created_time":"2018-05-04 18:59:33",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"VMware",
+"created_by":"admin",
+"created_time":"2018-05-04 19:00:35",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"认证服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:00:46",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"DHCP",
+"created_by":"admin",
+"created_time":"2018-05-04 19:00:59",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SFB服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:01:18",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Nagios",
+"created_by":"admin",
+"created_time":"2018-05-04 19:01:51",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"AD/CA/DNS服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:04",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"代理服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:24",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"语音短信平台",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:32",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"网络监控",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:39",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SCOM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:48",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"VDI数据",
+"created_by":"admin",
+"created_time":"2018-05-04 19:02:55",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Vista",
+"created_by":"admin",
+"created_time":"2018-05-04 19:03:03",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"虚拟化防病毒",
+"created_by":"admin",
+"created_time":"2018-05-04 19:03:20",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"打印服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SCCM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"加密服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"YUM源",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"蓝鲸平台",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SEP",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"瘦客户机管理系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"镜像分发",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SharePoint",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Splunk",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"ITSM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Citrix",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"语音",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Zabbix",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"VPN",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"WMS",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"MES",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"ZStack",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Dynatrace",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SIEM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"QDM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"IBM监控",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"网络",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"PLM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SFC",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"门禁系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"SVN",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"光学",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"IoT",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"模具系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"软件平台",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"宿舍系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"安防平台",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"人事系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"PGP",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"员工自助",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"试模系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"售饭系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"访客系统",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"EAM",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"文印服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"智能制造",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"WSUS",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"Cacti服务",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"基础和网络",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"AD站点2",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"AD站点1",
+"created_by":"admin",
+"created_time":"2018-05-04 19:18:45",
+"description":null,
+"is_deleted":0
+},
+{
+"name":"其他",
+"created_by":"admin",
+"created_time":"2018-08-06 15:28:45",
+"description":null,
+"is_deleted":0
+}
+]
+}

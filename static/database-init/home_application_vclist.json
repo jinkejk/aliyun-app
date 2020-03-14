@@ -1,0 +1,100 @@
+{
+"RECORDS":[
+{
+"id":4,
+"name":"CNDSZ01-XenInfra01",
+"vcenter_ip":"10.161.234.3",
+"vcenter_user":"aac\\s-devops",
+"vcenter_pwd":"15d395b0b1a30f622f1d76f648005598",
+"created_by":"admin",
+"created_time":"2018-09-14 16:48:50",
+"is_deleted":0,
+"is_syn":"success",
+"pre_created_time":"2018-11-23 13:43:16"
+},
+{
+"id":5,
+"name":"CNDCZ01-XenGPU01",
+"vcenter_ip":"10.177.234.203",
+"vcenter_user":"aac\\s-devops",
+"vcenter_pwd":"15d395b0b1a30f622f1d76f648005598",
+"created_by":"admin",
+"created_time":"2018-09-14 16:48:50",
+"is_deleted":0,
+"is_syn":"success",
+"pre_created_time":"2018-11-23 13:43:31"
+},
+{
+"id":6,
+"name":"CNDCZ01-XenApp01",
+"vcenter_ip":"10.177.234.22",
+"vcenter_user":"aac\\s-devops",
+"vcenter_pwd":"15d395b0b1a30f622f1d76f648005598",
+"created_by":"admin",
+"created_time":"2018-09-17 10:37:00.9450",
+"is_deleted":0,
+"is_syn":"success",
+"pre_created_time":"2018-11-23 13:43:36"
+},
+{
+"id":7,
+"name":"常州VC1",
+"vcenter_ip":"10.176.160.10",
+"vcenter_user":"aac\\t-bk01",
+"vcenter_pwd":"48aaee00e7fe47e9c0fa1c1916dd4a0f",
+"created_by":"admin",
+"created_time":"2018-08-23 09:48:50",
+"is_deleted":0,
+"pre_created_time":"2018-08-23 10:00:40.179000",
+"is_syn":"success"
+},
+{
+"id":8,
+"name":"常州VC2",
+"vcenter_ip":"10.176.161.13",
+"vcenter_user":"aac\\t-bk01",
+"vcenter_pwd":"48aaee00e7fe47e9c0fa1c1916dd4a0f",
+"created_by":"admin",
+"created_time":"2018-05-16 11:48:50",
+"is_deleted":0,
+"pre_created_time":"2018-08-18 10:00:40.179000",
+"is_syn":"success"
+},
+{
+"id":9,
+"name":"深圳VC1",
+"vcenter_ip":"10.160.161.10",
+"vcenter_user":"aac\\t-bk01",
+"vcenter_pwd":"48aaee00e7fe47e9c0fa1c1916dd4a0f",
+"created_by":"admin",
+"created_time":"2018-05-16 15:52:32",
+"is_deleted":0,
+"pre_created_time":"2018-08-18 17:00:44.193000",
+"is_syn":"success"
+},
+{
+"id":10,
+"name":"深圳VC2",
+"vcenter_ip":"10.1.69.10",
+"vcenter_user":"aac\\t-bk01",
+"vcenter_pwd":"48aaee00e7fe47e9c0fa1c1916dd4a0f",
+"created_by":"admin",
+"created_time":"2018-05-16 15:53:01",
+"is_deleted":0,
+"pre_created_time":"2018-08-17 12:03:50",
+"is_syn":"success"
+},
+{
+"id":11,
+"name":"深圳VC3",
+"vcenter_ip":"10.128.34.10",
+"vcenter_user":"aac\\t-bk01",
+"vcenter_pwd":"48aaee00e7fe47e9c0fa1c1916dd4a0f",
+"created_by":"admin",
+"created_time":"2018-05-16 15:53:30",
+"is_deleted":0,
+"pre_created_time":"2018-08-17 13:25:23",
+"is_syn":"success"
+}
+]
+}

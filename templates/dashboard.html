@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+<!-- 设置左侧菜单栏状态 -->
+{% block control-tab-li %}
+    <li class="active">
+{% endblock %}
+
+{% block header-style %}
+    <style>
+
+    </style>
+{% endblock %}
+
+{% block child-header-css %}
+    <link href="{{ STATIC_URL }}css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+{% endblock %}
+
+<!-- 子页面布局 -->
+{% block child-body %}
+    <h1>Hello</h1>
+{% endblock %}
+
+{% block child-bottom-js %}
+    <script src="{{ STATIC_URL }}js/plugins/iCheck/icheck.min.js"></script>
+    <script src="{{ STATIC_URL }}js/plugins/datapicker/bootstrap-datepicker.js"></script>
+    <script src="{{ STATIC_URL }}js/plugins/sweetalert/sweetalert.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            toastr.info('welcome!')
+        });
+
+    </script>
+{% endblock %}

@@ -1,0 +1,31 @@
+{
+"RECORDS":[
+{
+"id":1,
+"name":"生产",
+"created_by":"admin",
+"created_time":"2018-05-04 17:24:07",
+"valid_time":"0",
+"description":null,
+"is_deleted":0
+},
+{
+"id":2,
+"name":"测试\/开发",
+"created_by":"admin",
+"created_time":"2018-05-04 17:24:21",
+"valid_time":"0",
+"description":null,
+"is_deleted":0
+},
+{
+"id":3,
+"name":"其他",
+"created_by":"admin",
+"created_time":"2018-05-04 17:24:23",
+"valid_time":"0",
+"description":null,
+"is_deleted":0
+}
+]
+}
