@@ -108,13 +108,21 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-
-STATIC_URL = '/static/'
-
-# 项目路径
 PROJECT_PATH = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT, PROJECT_MODULE_NAME = os.path.split(PROJECT_PATH)
-LOGGING_DIR = os.path.join(PROJECT_ROOT, 'logs')
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_ROOT, 'static'),
+)
+STATIC_URL = '/static/'
+
+RUN_MODE = os.environ.get('RUN_MODE', 'develop')
+
+# 日志路径
+if RUN_MODE != 'develop':
+    LOGGING_DIR = '/root/logs/aliyun_app'
+else:
+    LOGGING_DIR = os.path.join(PROJECT_ROOT, 'logs')
+
 LOG_CLASS = 'logging.handlers.RotatingFileHandler'
 LOGGING = {
     'version': 1,

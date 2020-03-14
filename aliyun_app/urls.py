@@ -23,5 +23,5 @@ urlpatterns = [
 ]
 
 urlpatterns.extend([
-    url(r'^$', views.dashboard, name='vm_vm_index'),
+    url(r'^$', views.dashboard, name='dashboard'),
 ])

@@ -12,12 +12,14 @@
 
     <!--通用的一些css样式-->
     {% block base-header-css %}
-        <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ STATIC_URL }}font-awesome/css/font-awesome.css" rel="stylesheet">
-        <link href="{{ STATIC_URL }}css/animate.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/bk.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/common.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/button.css" rel="stylesheet">
         <link href="{{ STATIC_URL }}css/toastr.min.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}font-awesome/css/font-awesome.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ STATIC_URL }}css/animate.css" rel="stylesheet">
         <link href="{{ STATIC_URL }}css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="{{ STATIC_URL }}favicon.ico" type="image/x-icon">
     {% endblock %}
 
     <!--子页面需要的css样式-->
@@ -84,9 +86,13 @@
 <!-- 通用的js文件 -->
 {% block base-js %}
     <!-- Mainly scripts -->
-    <script src="{{ STATIC_URL }}js/jquery-2.1.1.js"></script>
+    <script src="{{ STATIC_URL }}js/jquery-1.10.2.min.js"></script>
+    <script src="{{ STATIC_URL }}js/inspinia.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <script src="{{ STATIC_URL }}js/toastr.min.js"></script>
+    <script src="{{ STATIC_URL }}js/plugins/pace/pace.min.js"></script>
+    <script src="{{ STATIC_URL }}js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="{{ STATIC_URL }}js/plugins/metisMenu/jquery.metisMenu.js"></script>
 {% endblock %}
 
 {#//子页面js#}
